@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    color: none;
+}
+body{
+    background-color: #A17C6B;
+    text-align: center;
+}
+.Container{
+    height: 80vh;/*80vh means 80% of the browser window's height.*/
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.Game{
+    background-color: rgb(220, 209, 209);
+    height: 60vmin;
+    width: 60vmin;
+    display:flex;
+    flex-wrap: wrap;
+    gap: 1vmin;
+    align-items: center;
+    justify-content: center;
+}
+.Box{
+    height:19vmin;
+    width:19vmin;
+    border: none;
+    cursor:crosshair;
+    font-size: 6vmin;
+    color: #3C887E;
+}
+.Box:hover{
+    background-color: rgb(53, 53, 63);
+}
+.Reset{
+    color: black;
+    height: 30px;
+    width: 60px;
+}
